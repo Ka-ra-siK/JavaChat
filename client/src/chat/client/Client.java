@@ -12,7 +12,7 @@ import java.io.IOException;
 public class Client extends JFrame implements ActionListener, TCPConnectionListener {
 
     private static final String IP = "Your IP :-)";
-    private static final int PORT = "Your port";
+    private static final int PORT = 8189;
     private static final int WIDTH = 600;
     private static final int HEIGHT = 400;
     private final JTextArea log = new JTextArea();
